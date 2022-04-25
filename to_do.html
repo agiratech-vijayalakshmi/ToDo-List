@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./to_do.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Poppins:wght@200&family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    /> -->
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome back</h1>
+    
+      <form id="list" class="To-do list">
+    
+       
+        <input
+          id="task"
+          type="text"
+          class="text"
+          placeholder="   Add a new task"
+        />
+   
+        <input type="textarea" id="text" placeholder="   Add a short description" />
+         <input type="textarea" id="thirdtext" class="thirdtxt" placeholder="Add a tag!"/>
+        <button type="submit" id="second" onclick="setdata(),showdata()">+</button>
+        <div id="newli"></div>
+        <!-- <button type="click" id="btn2" onclick="deleteItem()">X</button> -->
+      </form>
+
+      
+      
+      <!-- <input type="checkbox" id="third" onclick="" /> -->
+     
+    </div>
+    <script src="./to_do.js"></script>
+  </body>
+</html>
